@@ -1,0 +1,22 @@
+.user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 30%; /* Egy harmad szélesség, hogy három kártya férjen el egymás mellett */
+    box-sizing: border-box;
+    white-space: normal; /* A szöveg törik, hogy ne csússzon ki */
+    overflow: hidden; /* Biztosítja, hogy az adatok ne csússzanak ki a kártyából */
+}
+#user-data {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+h1, form{
+    text-align: center;
+}
