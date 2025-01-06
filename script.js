@@ -36,7 +36,7 @@ function displayUserData(user) {
         <h2>${user.username}</h2>
         <p><strong>Név:</strong> ${user.name || 'Nincs megadva'}</p>
         <p><strong>Klán:</strong> ${user.clan || 'Nincs megadva'}</p>
-        <p><strong>Nyelvek:</strong> ${(user.skills && user.skills.languages && user.skills.languages.length > 0) ? user.skills.languages.join(', ') : 'Nincs megadva'}</p>
+        <p><strong>Nyelvek:</strong> ${(user.skills && user.skills.languages && user.skills.languages.length > 0) ? user.skills.languages.join(', ') : 'javascript'}</p>
         <p><strong>JavaScript rang:</strong> ${(user.ranks && user.ranks.languages && user.ranks.languages.javascript) ? user.ranks.languages.javascript.rank : 'Nincs megadva'}</p>
     `;
     userDataDiv.appendChild(userCard);
